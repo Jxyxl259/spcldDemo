@@ -69,8 +69,9 @@
     </dependencies>
   </dependencyManagement>
 
+
   <build>
-    <finalName>microservicecloud</finalName>
+    <finalName>spcld_demo</finalName>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
@@ -94,6 +95,7 @@
     <module>./api</module>
     <module>./provider</module>
     <module>./consumer</module>
+    <module>./eureka_server</module>
   </modules>
 
 </project>

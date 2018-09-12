@@ -8,8 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="consumer_80" />
-        <module name="provider_8081" />
+        <module name="eureka_server_7001" />
+        <module name="provider_8001" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer_80" target="1.8" />
+      <module name="eureka_server_7001" target="1.8" />
+      <module name="provider_8001" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
