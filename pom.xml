@@ -96,6 +96,8 @@
     <module>./provider_8001</module>
     <module>./consumer_80</module>
     <module>./eureka_server_7001</module>
+    <module>./eureka_server_7002</module>
+    <module>./eureka_server_7003</module>
   </modules>
 
 </project>
