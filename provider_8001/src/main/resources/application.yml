@@ -19,7 +19,7 @@ spring:
     # mysql驱动包
     driver-class-name: org.gjt.mm.mysql.Driver
     # 数据库名称
-    url: jdbc:mysql://localhost:3306/spcld_demo
+    url: jdbc:mysql://localhost:3306/provider_db_01
     username: root
     password: root
     dbcp2:
@@ -36,7 +36,7 @@ eureka:
   #客户端注册进eureka服务列表内
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
   instance:
     # 此处配置服务名称
     instance-id: microservicecloud-dept8001
@@ -44,7 +44,7 @@ eureka:
     prefer-ip-address: true
 
 info:
-  app.name: spcld-demo-provider
+  app.name: spcld-demo-provider-8001
   company.name: www.jiangBUG.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$

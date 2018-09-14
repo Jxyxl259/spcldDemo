@@ -36,6 +36,11 @@
         <scope>import</scope>
       </dependency>
       <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+      </dependency>
+      <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>5.0.4</version>
@@ -93,11 +98,17 @@
 
   <modules>
     <module>./api</module>
+    <module>./provider_hystrix_8001</module>
     <module>./provider_8001</module>
-    <module>./consumer_80</module>
-    <module>./eureka_server_7001</module>
-    <module>./eureka_server_7002</module>
-    <module>./eureka_server_7003</module>
+    <module>./provider_8002</module>
+    <module>./provider_8003</module>
+      <module>./eureka_server_7001</module>
+      <module>./eureka_server_7002</module>
+      <module>./eureka_server_7003</module>
+      <module>./consumer_80</module>
+      <module>./consumer_feign</module>
+   <!-- <module>./consumer_8002</module>
+    <module>./consumer_8003</module>-->
   </modules>
 
 </project>

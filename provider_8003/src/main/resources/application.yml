@@ -1,0 +1,50 @@
+server:
+  port: 8003
+
+mybatis:
+  # mybatis配置文件所在路径
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  # 所有Entity别名类所在包
+  type-aliases-package: com.spcld.entity
+  # mapper映射文件
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml
+
+spring:
+   application:
+    name: microservicecloud-dept
+   datasource:
+    # 当前数据源操作类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    # mysql驱动包
+    driver-class-name: org.gjt.mm.mysql.Driver
+    # 数据库名称
+    url: jdbc:mysql://localhost:3306/provider_db_03
+    username: root
+    password: root
+    dbcp2:
+      # 数据库连接池的最小维持连接数
+      min-idle: 5
+      # 初始化连接数
+      initial-size: 5
+      # 最大连接数
+      max-total: 5
+      # 等待连接获取的最大超时时间
+      max-wait-millis: 200
+
+eureka:
+  #客户端注册进eureka服务列表内
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    # 此处配置服务名称
+    instance-id: microservicecloud-dept8003
+    # 当鼠标移到服务名称超链接上时，浏览器左下角显示ip地址
+    prefer-ip-address: true
+
+info:
+  app.name: spcld-demo-provider-8003
+  company.name: www.jiangBUG.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
