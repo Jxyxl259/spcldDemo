@@ -106,7 +106,7 @@
       <module>./eureka_server_7002</module>
       <module>./eureka_server_7003</module>
       <module>./consumer_80</module>
-      <module>./consumer_feign</module>
+      <module>./consumer_feign_80</module>
    <!-- <module>./consumer_8002</module>
     <module>./consumer_8003</module>-->
   </modules>
