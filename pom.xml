@@ -107,6 +107,7 @@
       <module>./eureka_server_7003</module>
       <module>./consumer_80</module>
       <module>./consumer_feign_80</module>
+      <module>./consumer-hystrix-dashboard_9001</module>
    <!-- <module>./consumer_8002</module>
     <module>./consumer_8003</module>-->
   </modules>
