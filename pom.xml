@@ -102,12 +102,16 @@
     <module>./provider_8001</module>
     <module>./provider_8002</module>
     <module>./provider_8003</module>
-      <module>./eureka_server_7001</module>
-      <module>./eureka_server_7002</module>
-      <module>./eureka_server_7003</module>
-      <module>./consumer_80</module>
-      <module>./consumer_feign_80</module>
-      <module>./consumer-hystrix-dashboard_9001</module>
+    <module>./eureka_server_7001</module>
+    <module>./eureka_server_7002</module>
+    <module>./eureka_server_7003</module>
+    <module>./consumer_80</module>
+    <module>./consumer_feign_80</module>
+    <module>./consumer-hystrix-dashboard_9001</module>
+    <module>./zuul_gateway_9527</module>
+    <module>./config_server_3344</module>
+    <module>./config_client_3355</module>
+
    <!-- <module>./consumer_8002</module>
     <module>./consumer_8003</module>-->
   </modules>

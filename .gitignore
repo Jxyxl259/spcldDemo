@@ -23,6 +23,7 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-
-.idea/*
-.idea/encodings.xml
+/**/target
+.gitignore
+.mvn
+.idea/*.*

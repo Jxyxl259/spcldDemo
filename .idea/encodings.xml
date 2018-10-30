@@ -3,7 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_client_3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server_3344" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-hystrix-dashboard_9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer_80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer_feign_80" charset="UTF-8" />
@@ -14,5 +15,6 @@
     <file url="file://$PROJECT_DIR$/provider_8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider_8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider_hystrix_8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul_gateway_9527" charset="UTF-8" />
   </component>
 </project>
